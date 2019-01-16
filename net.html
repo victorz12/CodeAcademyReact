@@ -1,0 +1,34 @@
+<html>
+<head>
+<script>
+function clav()
+{
+
+var temporal;
+temporal=clave.value;
+if (temporal=="Dijite su clava aqui")
+location.href="Escriba aqui la paguina que desea enlazar";
+else
+alert("Password incorrecto");
+clave.value="";
+clave.focus();
+
+}
+
+</script>
+<title>Ingrese su password para acceder a la paguina de deseada</title>
+</head>
+
+<body>
+<center>
+<h1><i><u>Dijite su Password para Acceder al Host</u></i>.</h1>
+<hr />
+<img src="host.jpg" alt="host1" width="268" height="231" /><br />
+<br />
+<font color="#CC3300" size="+1" face="Arial Black, System">Password:</font>
+<input type="password" name="clave" /><br /><br />
+<input type="button" value="Aceder" onclick="clav();" style="" />
+</center>
+</body>
+
+</html>
